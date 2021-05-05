@@ -18,7 +18,7 @@ DOT_COLOR  = COLOR_GREEN
 
 
 # The buffer for the mixer is too large for my computer, which makes the latency to big.
-# This initializes the buffer to 1024 instead of 4096 (they've changed this default quite alot).
+# This initializes the buffer to 1024 instead of 4096 (they've changed this default quite a lot).
 # The rest are the default values.
 # https://www.pygame.org/docs/ref/mixer.html#pygame.mixer.pre_init
 pygame.mixer.pre_init(buffer=SOUND_BUFFER_SIZE)
